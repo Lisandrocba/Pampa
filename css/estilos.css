@@ -658,5 +658,43 @@ a {
   .contenedorItems {
     margin-bottom: 10%;
   }
+  .maps {
+    width: 100px;
+    height: 100px;
+  }
+  .item {
+    width: 130px;
+  }
+  .icon {
+    padding: 5.5%;
+  }
+  .contenedorParrafoAlimentos {
+    padding: auto auto;
+    text-align: left;
+  }
+  .contenedorParrafoAgroindustria {
+    padding: auto auto;
+    text-align: left;
+  }
+  .contenedorParrafoAutopartes {
+    padding: auto auto;
+    text-align: left;
+  }
+  .contenedorParrafoOutdoor {
+    padding: auto auto;
+    text-align: left;
+  }
+  .parrafoServicios {
+    padding: 0;
+  }
+  .listadoSrvicios {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  .menuServicios {
+    margin: 0;
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
