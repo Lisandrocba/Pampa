@@ -650,6 +650,13 @@ a {
     width: 95%;
     margin: auto auto;
   }
+  .contenedorDatos {
+    font-size: 0.5rem;
+  }
+  iframe {
+    width: 30%;
+    height: 20vh;
+  }
   .tituloFooter {
     font-size: 1.2rem;
     padding-top: 1.5%;
@@ -705,8 +712,6 @@ a {
   }
   .contenedorItems {
     margin-bottom: 10%;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
