@@ -134,8 +134,11 @@ body {
   color: black;
   font-size: 1.7rem;
   margin-left: 10%;
-  margin-top: 5%;
-  text-shadow: -1px -1px white, 1px 1px #333;
+  margin-top: 7%;
+}
+
+.letraAzul {
+  color: #68afd4;
 }
 
 .imgOficina {
@@ -161,10 +164,10 @@ body {
 }
 
 .icoServicios {
-  font-size: 60px;
-  background-color: #68afd4;
+  width: 20%;
+  padding: 0 10%;
+  background-color: #d1d1d1;
   border-radius: 50%;
-  padding: 5%;
 }
 
 .contenedorServicioInicio {
@@ -194,6 +197,7 @@ body {
 .contenedorServicioInicio ul li {
   font-size: 0.9rem;
   padding: 5px 0;
+  cursor: default;
 }
 
 .contenedorServicioInicio:hover {
@@ -260,8 +264,8 @@ body {
   font-size: 1.2rem;
   color: #68afd4;
   background-color: #d1d1d1;
-  width: 170px;
-  height: 8vh;
+  width: 200px;
+  height: 10vh;
   border-radius: 5px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -285,8 +289,8 @@ body {
   font-size: 1.2rem;
   color: #68afd4;
   background-color: #68afd4;
-  width: 170px;
-  height: 8vh;
+  width: 200px;
+  height: 10vh;
   border-radius: 5px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -295,6 +299,10 @@ body {
 .mediana:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.padLetra {
+  padding: 5%;
 }
 
 .grande {
@@ -310,8 +318,8 @@ body {
   font-size: 1.2rem;
   color: #68afd4;
   background-color: black;
-  width: 170px;
-  height: 8vh;
+  width: 200px;
+  height: 10vh;
   border-radius: 5px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -488,8 +496,8 @@ a {
 }
 
 .icoNoSeleccionado {
-  -webkit-box-shadow: 15px 15px 15px black;
-          box-shadow: 15px 15px 15px black;
+  -webkit-box-shadow: 10px 10px 10px black;
+          box-shadow: 10px 10px 10px black;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -557,6 +565,10 @@ a {
   border-bottom: 2px solid black;
 }
 
+.menuServicios li {
+  list-style: none;
+}
+
 .parrafoServicios {
   padding: 2% 3%;
 }
@@ -571,6 +583,10 @@ a {
 
 .icoServicio:hover {
   color: white;
+}
+
+.contenedorItems i {
+  cursor: pointer;
 }
 
 @media (max-width: 1100px) {
@@ -608,6 +624,22 @@ a {
 }
 
 @media (max-width: 600px) {
+  .contenedorImgLogo {
+    margin: 10% auto;
+  }
+  .item a {
+    font-size: 1rem;
+  }
+  .subtitulo {
+    font-size: 1.2rem;
+    margin-top: 15%;
+  }
+  .titulo {
+    font-size: 0.8rem;
+  }
+  .parrafo {
+    font-size: 1rem;
+  }
   .contenedorFooter {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -652,49 +684,26 @@ a {
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
+  .chica {
+    width: 150px;
+    height: 7vh;
+    font-size: 1rem;
+  }
+  .mediana {
+    width: 150px;
+    height: 7vh;
+    font-size: 1rem;
+  }
+  .grande {
+    width: 150px;
+    height: 7vh;
+    font-size: 1rem;
+  }
   .contenedorfilaServivios {
     margin: 0;
   }
   .contenedorItems {
     margin-bottom: 10%;
-  }
-  .maps {
-    width: 100px;
-    height: 100px;
-  }
-  .item {
-    width: 130px;
-  }
-  .icon {
-    padding: 5.5%;
-  }
-  .contenedorParrafoAlimentos {
-    padding: auto auto;
-    text-align: left;
-  }
-  .contenedorParrafoAgroindustria {
-    padding: auto auto;
-    text-align: left;
-  }
-  .contenedorParrafoAutopartes {
-    padding: auto auto;
-    text-align: left;
-  }
-  .contenedorParrafoOutdoor {
-    padding: auto auto;
-    text-align: left;
-  }
-  .parrafoServicios {
-    padding: 0;
-  }
-  .listadoSrvicios {
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-  }
-  .menuServicios {
-    margin: 0;
-    padding: 0;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
