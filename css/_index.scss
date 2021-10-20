@@ -356,7 +356,7 @@ a{
 
 .icon{
     color: black;
-    font-size: 32px;
+    font-size: 30px;
     background-color: $colorCeleste;
     border-radius: 50%;
     padding: 1.5%;
@@ -485,6 +485,10 @@ a{
         margin: 10% auto;
     }
 
+    .item{
+        padding: 4%;
+    }
+
     .item a{
         font-size: 1rem;
     }
@@ -579,5 +583,25 @@ a{
     .contenedorItems{
         margin-bottom: 10%;
        // flex-wrap: wrap;
+    }
+
+    .icon{
+        padding: 4%;
+    }
+
+    .contenedorParrafoAlimentos ul li{
+        transform: translateX(-25px);
+    }
+
+    .contenedorParrafoAgroindustria ul li{
+        transform: translateX(-25px);
+    }
+
+    .contenedorParrafoAutopartes ul li{
+        transform: translateX(-25px);
+    }
+
+    .contenedorParrafoOutdoor ul li{
+        transform: translateX(-25px);
     }
 }
