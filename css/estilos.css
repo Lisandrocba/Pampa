@@ -647,7 +647,8 @@ a {
             flex-direction: column;
   }
   .contenedorMaps {
-    margin: 0;
+    width: 95%;
+    margin: auto auto;
   }
   .tituloFooter {
     font-size: 1.2rem;
