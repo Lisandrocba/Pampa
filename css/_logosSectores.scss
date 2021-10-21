@@ -1,0 +1,119 @@
+.imgGolton{
+    width: 15%;
+}
+
+.logoMorixe{
+    width: 30%;
+}
+
+.parraMorixe{
+    transform: translateX(-100px);
+}
+
+.imgRoruka{
+    width: 15%;
+    padding: 3% 0;
+}
+
+.imgDuo{
+    width: 15%;
+}
+
+.imgPampa{
+    width: 17%;
+
+}
+
+.imgNevado{
+    width: 10%;
+}
+
+.imgIngersoll{
+    width: 15%;
+}
+
+.imgOmbu{
+    width: 15%;
+}
+
+.imgCauplas{
+    width: 25%;
+}
+
+.imgApolo{
+    width: 25%;
+}
+
+.imgExp{
+    width: 20%;
+    transform: translateX(40px);
+    margin-right: 5%;
+}
+
+@media (max-width: 800px){
+    .imgArpan{
+        width: 20%;
+    }
+
+    .imgCarlosRomero{
+        width: 25%;
+    }
+}
+
+@media (max-width: 600px){
+    .imgGolton{
+        display: none;
+    }
+    
+    .logoMorixe{
+        display: none;
+    }
+
+    .parraMorixe{
+        transform: translateX(0);
+    }
+
+    .imgRoruka{
+        display: none;
+    }
+    
+    .imgDuo{
+        display: none;
+    }
+    
+    .imgPampa{
+        display: none;
+    }
+    
+    .imgNevado{
+        display: none;
+    }
+    
+    .imgIngersoll{
+        display: none;
+    }
+    
+    .imgOmbu{
+        display: none;
+    }
+    
+    .imgCauplas{
+        display: none;
+    }
+    
+    .imgApolo{
+        display: none;
+    }
+    
+    .imgExp{
+        display: none;
+    }
+
+    .imgArpan{
+        display: none;
+    }
+
+    .imgCarlosRomero{
+        display: none;
+    }
+}

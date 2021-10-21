@@ -303,6 +303,7 @@ body {
 
 .padLetra {
   padding: 5%;
+  text-align: center;
 }
 
 .grande {
@@ -351,33 +352,18 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #68afd4;
-  padding: 1% 0;
-}
-
-.contenedorMaps {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 2%;
 }
 
 .contenedorDatos {
   padding: 0 2%;
+  margin-left: 10%;
 }
 
 .tituloFooter {
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 1rem;
+  -webkit-transform: translate(-20px);
+          transform: translate(-20px);
 }
 
 .contenedorRedes {
@@ -394,7 +380,7 @@ a {
 }
 
 .icoRedes {
-  font-size: 32px;
+  font-size: 40px;
 }
 
 .contenedorMenuFooter {
@@ -410,14 +396,76 @@ a {
           justify-content: center;
 }
 
-.menuFooter li {
+.menuFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   list-style: none;
-  padding-bottom: 15%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateX(-30px);
+          transform: translateX(-30px);
+}
+
+.menuFooter li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  width: 150px;
+  height: 8vh;
+  margin: 0 5%;
+  border: 2px solid black;
+  border-radius: 15px;
 }
 
 .menuFooter li a {
   text-decoration: none;
-  color: black;
+  color: #fff;
+}
+
+.contenedorInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedorInfo p {
+  font-size: 0.8rem;
+  margin: 3% 0;
+}
+
+.icoInfo {
+  padding-right: 5%;
+  font-size: 1.3rem;
 }
 
 .contenedorInicio {
@@ -428,7 +476,6 @@ a {
 }
 
 .contenedorServicios {
-  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -734,6 +781,114 @@ a {
   .contenedorParrafoOutdoor ul li {
     -webkit-transform: translateX(-25px);
             transform: translateX(-25px);
+  }
+}
+
+.imgGolton {
+  width: 15%;
+}
+
+.logoMorixe {
+  width: 30%;
+}
+
+.parraMorixe {
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.imgRoruka {
+  width: 15%;
+  padding: 3% 0;
+}
+
+.imgDuo {
+  width: 15%;
+}
+
+.imgPampa {
+  width: 17%;
+}
+
+.imgNevado {
+  width: 10%;
+}
+
+.imgIngersoll {
+  width: 15%;
+}
+
+.imgOmbu {
+  width: 15%;
+}
+
+.imgCauplas {
+  width: 25%;
+}
+
+.imgApolo {
+  width: 25%;
+}
+
+.imgExp {
+  width: 20%;
+  -webkit-transform: translateX(40px);
+          transform: translateX(40px);
+  margin-right: 5%;
+}
+
+@media (max-width: 800px) {
+  .imgArpan {
+    width: 20%;
+  }
+  .imgCarlosRomero {
+    width: 25%;
+  }
+}
+
+@media (max-width: 600px) {
+  .imgGolton {
+    display: none;
+  }
+  .logoMorixe {
+    display: none;
+  }
+  .parraMorixe {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .imgRoruka {
+    display: none;
+  }
+  .imgDuo {
+    display: none;
+  }
+  .imgPampa {
+    display: none;
+  }
+  .imgNevado {
+    display: none;
+  }
+  .imgIngersoll {
+    display: none;
+  }
+  .imgOmbu {
+    display: none;
+  }
+  .imgCauplas {
+    display: none;
+  }
+  .imgApolo {
+    display: none;
+  }
+  .imgExp {
+    display: none;
+  }
+  .imgArpan {
+    display: none;
+  }
+  .imgCarlosRomero {
+    display: none;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

@@ -1,5 +1,5 @@
 document.getElementById("servicio").addEventListener("click",function(e){
-    mostrarServicios(e)
+    mostrarServicios(e);
 })
 
 document.getElementById("inicio").addEventListener("click",function(e){
@@ -7,11 +7,19 @@ document.getElementById("inicio").addEventListener("click",function(e){
 })
 
 document.getElementById("inicioFooter").addEventListener("click",function(e){
-    mostrarInicio(e)
+    mostrarInicio(e);
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
 })
 
 document.getElementById("serviviosFooter").addEventListener("click",function(e){
-    mostrarServicios(e)
+    mostrarServicios(e);
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
 })
 
 document.getElementById("alimentos").addEventListener("click", function(e){

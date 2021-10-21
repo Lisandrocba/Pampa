@@ -225,6 +225,7 @@
 
 .padLetra{
     padding: 5%;
+    text-align: center;
 }
 
 .grande{
@@ -261,24 +262,17 @@ a{
     flex-direction: row;
     justify-content: space-between;
     background-color: $colorCeleste;
-    padding: 1% 0;
-}
-
-.contenedorMaps{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: 2%;
 }
 
 .contenedorDatos{
     padding: 0 2%;
+    margin-left: 10%;
 }
 
 .tituloFooter{
     margin: 0;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    transform: translate(-20px);
 }
 
 .contenedorRedes{
@@ -289,7 +283,7 @@ a{
 }
 
 .icoRedes{
-    font-size: 32px;
+    font-size: 40px;
 }
 
 .contenedorMenuFooter{
@@ -298,14 +292,48 @@ a{
     justify-content: center;
 }
 
-.menuFooter li{
+.menuFooter{
+    display: flex;
+    flex-direction: row;
     list-style: none;
-    padding-bottom: 15%;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-30px);
+}
+
+.menuFooter li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 150px;
+    height: 8vh;
+    margin: 0 5%;
+    border: 2px solid black;
+    border-radius: 15px;
 }
 
 .menuFooter li a{
     text-decoration: none;
-    color: black;
+    color: #fff;
+}
+
+.contenedorInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.contenedorInfo p{
+    font-size: 0.8rem;
+    margin: 3% 0;
+}
+
+.icoInfo{
+    padding-right: 5%;
+    font-size: 1.3rem;
 }
 
 //-------------------- contenedor inicio -----------------------
@@ -315,7 +343,7 @@ a{
 }
 
 .contenedorServicios{
-    display: none;
+   // display: none;
     flex-direction: column;
     background-color: white;
     margin: 0;
