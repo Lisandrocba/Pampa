@@ -476,6 +476,7 @@ a {
 }
 
 .contenedorServicios {
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
