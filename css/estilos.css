@@ -73,9 +73,9 @@ body {
 
 .item a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: black;
-  text-shadow: -0.7px -0.7px white, .7px .7px #333;
+  font-weight: 600;
 }
 
 .item a:hover {
@@ -164,8 +164,7 @@ body {
 }
 
 .icoServicios {
-  width: 20%;
-  padding: 0 10%;
+  width: 40%;
   background-color: #d1d1d1;
   border-radius: 50%;
 }
