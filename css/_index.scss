@@ -127,8 +127,8 @@
 }
 
 .icoServicios{
-    width: 40%;
-    background-color: $colorGris;
+    width: 130px;
+    padding: 0.5rem;
     border-radius: 50%;
     border: 2px solid black;
 }
@@ -389,6 +389,14 @@ a{
     padding: 1.5%;
 }
 
+.iconMed{
+    color: black;
+    font-size: 30px;
+    background-color: $colorCeleste;
+    border-radius: 50%;
+    padding: 1.5% 1.7%;
+}
+
 .icoNoSeleccionado{
     box-shadow: 10px 10px 10px black;
     transition: 0.3s;
@@ -419,6 +427,16 @@ a{
 }
 
 .contenedorParrafoAutopartes{
+    display: none;
+    padding: 2% 5%;
+    text-align: center;
+    background-color: $colorCeleste;
+    margin: 3% 2%;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.contenedorParrafoMedicina{
     display: none;
     padding: 2% 5%;
     text-align: center;
@@ -626,11 +644,19 @@ a{
 
     .contenedorItems{
         margin-bottom: 10%;
-       // flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .contenedorItems i{
+        margin: 5% 3%;
     }
 
     .icon{
         padding: 4%;
+    }
+
+    .iconMed{
+        padding: 4.5%;
     }
 
     .contenedorParrafoAlimentos ul li{

@@ -38,6 +38,18 @@ document.getElementById("outdoor").addEventListener("click", function(e){
     mostrarOutdoor(e)
 })
 
+document.getElementById("medicina").addEventListener("click", function(e){
+    mostrarMedicina(e)
+})
+
+document.getElementById("ferre").addEventListener("click", function(e){
+    mostrarFerre(e)
+})
+
+document.getElementById("maquinaria").addEventListener("click", function(e){
+    mostrarMaqui(e)
+})
+
 function mostrarServicios(e){
     e.preventDefault();
     let inicio = document.getElementById("contenedorInicio");
@@ -83,6 +95,12 @@ function mostrarAlimentos(e){
 function mostrarAutopartes(e){
     e.preventDefault();
     
+    document.getElementById("maquinaria").classList.remove("icoSeleccionado")
+    document.getElementById("maquinaria").classList.add("icoNoSeleccionado")
+    document.getElementById("ferre").classList.remove("icoSeleccionado")
+    document.getElementById("ferre").classList.add("icoNoSeleccionado")
+    document.getElementById("medicina").classList.remove("icoSeleccionado")
+    document.getElementById("medicina").classList.add("icoNoSeleccionado")
     document.getElementById("alimentos").classList.remove("icoSeleccionado");
     document.getElementById("alimentos").classList.add("icoNoSeleccionado")
     document.getElementById("autopartes").classList.remove("icoNoSeleccionado")
@@ -98,11 +116,20 @@ function mostrarAutopartes(e){
     autopartes.style.display = "block";
     document.getElementById("contenedorAuto").style.display = "none";
     document.getElementById("contenedorOutdoor").style.display = "none";
+    document.getElementById("contenedorMed").style.display = "none";
+    document.getElementById("contenedorFerre").style.display = "none";
+    document.getElementById("contenedorMaqui").style.display = "none";
 }
 
 function mostrarAutos(e){
     e.preventDefault();
     
+    document.getElementById("maquinaria").classList.remove("icoSeleccionado")
+    document.getElementById("maquinaria").classList.add("icoNoSeleccionado")
+    document.getElementById("ferre").classList.remove("icoSeleccionado")
+    document.getElementById("ferre").classList.add("icoNoSeleccionado")
+    document.getElementById("medicina").classList.remove("icoSeleccionado")
+    document.getElementById("medicina").classList.add("icoNoSeleccionado")
     document.getElementById("alimentos").classList.remove("icoSeleccionado");
     document.getElementById("alimentos").classList.add("icoNoSeleccionado")
     document.getElementById("autopartes").classList.add("icoNoSeleccionado")
@@ -116,12 +143,21 @@ function mostrarAutos(e){
     document.getElementById("contenedorAutopartes").style.display = "none";
     document.getElementById("contenedorAuto").style.display = "block";
     document.getElementById("contenedorOutdoor").style.display = "none";
+    document.getElementById("contenedorFerre").style.display = "none";
+    document.getElementById("contenedorMed").style.display = "none";
+    document.getElementById("contenedorMaqui").style.display = "none";
 
 }
 
 function mostrarOutdoor(e){
     e.preventDefault();
     
+    document.getElementById("maquinaria").classList.remove("icoSeleccionado")
+    document.getElementById("maquinaria").classList.add("icoNoSeleccionado")
+    document.getElementById("ferre").classList.remove("icoSeleccionado")
+    document.getElementById("ferre").classList.add("icoNoSeleccionado")
+    document.getElementById("medicina").classList.remove("icoSeleccionado")
+    document.getElementById("medicina").classList.add("icoNoSeleccionado")
     document.getElementById("alimentos").classList.remove("icoSeleccionado");
     document.getElementById("alimentos").classList.add("icoNoSeleccionado")
     document.getElementById("autopartes").classList.add("icoNoSeleccionado")
@@ -135,5 +171,92 @@ function mostrarOutdoor(e){
     document.getElementById("contenedorAutopartes").style.display = "none";
     document.getElementById("contenedorAuto").style.display = "none";
     document.getElementById("contenedorOutdoor").style.display = "block";
+    document.getElementById("contenedorFerre").style.display = "none";
+    document.getElementById("contenedorMed").style.display = "none";
+    document.getElementById("contenedorMaqui").style.display = "none";
+
+}
+
+function mostrarMedicina(e){
+    e.preventDefault();
+    
+    document.getElementById("maquinaria").classList.remove("icoSeleccionado")
+    document.getElementById("maquinaria").classList.add("icoNoSeleccionado")
+    document.getElementById("ferre").classList.remove("icoSeleccionado")
+    document.getElementById("ferre").classList.add("icoNoSeleccionado")
+    document.getElementById("medicina").classList.add("icoSeleccionado")
+    document.getElementById("medicina").classList.remove("icoNoSeleccionado")
+    document.getElementById("alimentos").classList.remove("icoSeleccionado")
+    document.getElementById("alimentos").classList.add("icoNoSeleccionado")
+    document.getElementById("autopartes").classList.add("icoNoSeleccionado")
+    document.getElementById("autopartes").classList.remove("icoSeleccionado")
+    document.getElementById("autos").classList.add("icoNoSeleccionado")
+    document.getElementById("autos").classList.remove("icoSeleccionado")
+    document.getElementById("outdoor").classList.add("icoNoSeleccionado")
+    document.getElementById("outdoor").classList.remove("icoSeleccionado")
+
+    document.getElementById("contenedorAlimentos").style.display = "none";
+    document.getElementById("contenedorAutopartes").style.display = "none";
+    document.getElementById("contenedorAuto").style.display = "none";
+    document.getElementById("contenedorOutdoor").style.display = "none";
+    document.getElementById("contenedorMed").style.display = "block";
+    document.getElementById("contenedorFerre").style.display = "none";
+    document.getElementById("contenedorMaqui").style.display = "none";
+
+}
+
+function mostrarFerre(e){
+    e.preventDefault();
+    
+    document.getElementById("maquinaria").classList.remove("icoSeleccionado")
+    document.getElementById("maquinaria").classList.add("icoNoSeleccionado")
+    document.getElementById("ferre").classList.add("icoSeleccionado")
+    document.getElementById("ferre").classList.remove("icoNoSeleccionado")
+    document.getElementById("medicina").classList.remove("icoSeleccionado")
+    document.getElementById("medicina").classList.add("icoNoSeleccionado")
+    document.getElementById("alimentos").classList.remove("icoSeleccionado")
+    document.getElementById("alimentos").classList.add("icoNoSeleccionado")
+    document.getElementById("autopartes").classList.add("icoNoSeleccionado")
+    document.getElementById("autopartes").classList.remove("icoSeleccionado")
+    document.getElementById("autos").classList.add("icoNoSeleccionado")
+    document.getElementById("autos").classList.remove("icoSeleccionado")
+    document.getElementById("outdoor").classList.add("icoNoSeleccionado")
+    document.getElementById("outdoor").classList.remove("icoSeleccionado")
+
+    document.getElementById("contenedorAlimentos").style.display = "none";
+    document.getElementById("contenedorAutopartes").style.display = "none";
+    document.getElementById("contenedorAuto").style.display = "none";
+    document.getElementById("contenedorOutdoor").style.display = "none";
+    document.getElementById("contenedorMed").style.display = "none";
+    document.getElementById("contenedorFerre").style.display = "block";
+    document.getElementById("contenedorMaqui").style.display = "none";
+
+}
+
+function mostrarMaqui(e){
+    e.preventDefault();
+    
+    document.getElementById("maquinaria").classList.add("icoSeleccionado")
+    document.getElementById("maquinaria").classList.remove("icoNoSeleccionado")
+    document.getElementById("ferre").classList.remove("icoSeleccionado")
+    document.getElementById("ferre").classList.add("icoNoSeleccionado")
+    document.getElementById("medicina").classList.remove("icoSeleccionado")
+    document.getElementById("medicina").classList.add("icoNoSeleccionado")
+    document.getElementById("alimentos").classList.remove("icoSeleccionado")
+    document.getElementById("alimentos").classList.add("icoNoSeleccionado")
+    document.getElementById("autopartes").classList.add("icoNoSeleccionado")
+    document.getElementById("autopartes").classList.remove("icoSeleccionado")
+    document.getElementById("autos").classList.add("icoNoSeleccionado")
+    document.getElementById("autos").classList.remove("icoSeleccionado")
+    document.getElementById("outdoor").classList.add("icoNoSeleccionado")
+    document.getElementById("outdoor").classList.remove("icoSeleccionado")
+
+    document.getElementById("contenedorAlimentos").style.display = "none";
+    document.getElementById("contenedorAutopartes").style.display = "none";
+    document.getElementById("contenedorAuto").style.display = "none";
+    document.getElementById("contenedorOutdoor").style.display = "none";
+    document.getElementById("contenedorMed").style.display = "none";
+    document.getElementById("contenedorFerre").style.display = "none";
+    document.getElementById("contenedorMaqui").style.display = "block";
 
 }
