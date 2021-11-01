@@ -270,7 +270,7 @@ btnEsp.addEventListener("click", () =>{
 
 btnEng.addEventListener("click", ()=>{
     
-    localition = "../en/index.html";
+    localition = "../en/indexEn.html";
     location.href=localition;
     
     
