@@ -260,3 +260,18 @@ function mostrarMaqui(e){
     document.getElementById("contenedorMaqui").style.display = "block";
 
 }
+
+let btnEsp = document.getElementById("esp");
+let btnEng = document.getElementById("eng");
+
+btnEsp.addEventListener("click", () =>{
+    location.href="../index.html";
+})
+
+btnEng.addEventListener("click", ()=>{
+    
+    localition = "../en/index.html";
+    location.href=localition;
+    
+    
+})

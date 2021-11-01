@@ -1,3 +1,8 @@
+.imgBandera{
+    width: 5%;
+    cursor: pointer;
+}
+
 .imgGolton{
     width: 15%;
 }
@@ -119,5 +124,9 @@
 
     .imgCarlosRomero{
         display: none;
+    }
+
+    .imgBandera{
+        width: 20%;
     }
 }
