@@ -83,6 +83,12 @@ function mostrarAlimentos(e){
     document.getElementById("autos").classList.remove("icoSeleccionado")
     document.getElementById("outdoor").classList.add("icoNoSeleccionado")
     document.getElementById("outdoor").classList.remove("icoSeleccionado")
+    document.getElementById("autos").classList.add("icoNoSeleccionado")
+    document.getElementById("autos").classList.remove("icoSeleccionado")
+    document.getElementById("maquinaria").classList.remove("icoSeleccionado")
+    document.getElementById("maquinaria").classList.add("icoNoSeleccionado")
+    document.getElementById("ferre").classList.remove("icoSeleccionado")
+    document.getElementById("ferre").classList.add("icoNoSeleccionado")
 
     let alimentos = document.getElementById("contenedorAlimentos");
     alimentos.style.display = "block";
@@ -90,6 +96,9 @@ function mostrarAlimentos(e){
     autopartes.style.display = "none";
     document.getElementById("contenedorAuto").style.display = "none";
     document.getElementById("contenedorOutdoor").style.display = "none";
+    document.getElementById("contenedorMed").style.display = "none";
+    document.getElementById("contenedorFerre").style.display = "none";
+    document.getElementById("contenedorMaqui").style.display = "none";
 }
 
 function mostrarAutopartes(e){

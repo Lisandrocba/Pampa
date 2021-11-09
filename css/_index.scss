@@ -584,14 +584,16 @@ a{
 
     .contenedorIconosRedes{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
-        width: 200px;
-        margin-bottom: 2%;
+    }
+
+    .contenedorIconosRedes a{
+        margin: 0 30%;
     }
 
     .icoRedes{
-        padding: 0 5%;
+        padding: 0 15%;
     }
 
    .contenedorMaps{
